@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Bootstrap Social -->
+    <link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Font -->
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+
+
+    <title>Brennan Gamwell | Full-Stack Web Developer</title>
+
+  </head>
+
+  <body>
+
+    <!-- Landing Page Content -->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-12">
+            <br>
+            <img id="portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0a2/3d7/18144fd.jpg">
+          </div>
+            <div class="col-md-8 col-sm-12">
+              <h1>Brennan Gamwell</h1>
+              <h2>Full-Stack Web Developer in San Francisco</h2>
+              <hr>
+              <p class="text-muted" id="para-1">I'm an entrepreneurial full-stack web developer specializing in Javascript and Rails.</p>
+              <p class="text-muted" id="para-2">I get excited about information accessibility, user-centric design, APIs, relational databases and data science. Thanks to a strong quantitative marketing background, I offer solid written and verbal communication skills - meaning I can update your technical documentation in addition to producing modular, scalable code for products that inspire users.</p>
+              <p class="text-muted" id="para-3">Oh, I'm also a huge geek, have multiple pictures with Felicia Day, and have seen every episode of TNG--plus the movies--more than five times. Let's chat about all of the above!</p>
+              <p class="text-muted" id="para-4">For questions about Web and software design, please <span id="email-me">email me</span>! You can also <span id="github">explore my code on GitHub</span>, <span id="twitter">pick my brain on Twitter</span> and <span id="linkedin">review my previous experience on LinkedIn.</span></p>
+              <br>
+              <a href="https://www.github.com/bgamwell" target="_blank" class="btn btn-social-icon btn-github" id="github-icon">
+                <i class="fa fa-github"></i>
+              </a>
+              &nbsp;
+              <a href="https://www.twitter.com/bgamwell" target="_blank" class="btn btn-social-icon btn-twitter" id="twitter-icon">
+                <i class="fa fa-twitter"></i>
+              </a>
+              &nbsp;
+              <a href="https://www.linkedin.com/in/brennangamwell" target="_blank" class="btn btn-social-icon btn-linkedin" id="linkedin-icon">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              &nbsp;
+              <a href="MAILTO:bgamwell@gmail.com">
+                <button type="button" class="btn btn-default" id="email-icon">
+                  <span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                </button>
+              </a>
+            </div>
+            <!-- <div class="col-md-2 col-sm-12" id="right-div">
+              <p>This is a test div</p>
+            </div>  -->
+            <!-- /.row -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function() {
+        var images = ['02.jpg'];
+
+        $('.full').css({'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    });
+
+  </script>
+
+  </body>
+
+</html>
