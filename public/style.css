@@ -4,6 +4,10 @@ body {
 	background: none;
 }
 
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
+
 h1 {
   font-size: 55px;
   font-family: 'Playfair Display', serif;
@@ -27,9 +31,15 @@ p {
   background-size: cover;
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #ccc;
-    margin: 1em 0; padding: 0; }
+.glow {
+	-webkit-box-shadow: 0px 0px 3px 5px #99CCFF;
+	-moz-box-shadow: 0px 0px 3px 5px #99CCFF;
+	box-shadow: 0px 0px 3px 5px #99CCFF;
+}
+
+.underline {
+	text-decoration: underline;
+}
 
 #portrait {
   height: 150px;
@@ -39,14 +49,4 @@ hr { display: block; height: 1px;
 
 #right-div {
 	padding-top: 150px;
-}
-
-.glow {
-	-webkit-box-shadow: 0px 0px 3px 5px #99CCFF;
-	-moz-box-shadow: 0px 0px 3px 5px #99CCFF;
-	box-shadow: 0px 0px 3px 5px #99CCFF;
-}
-
-.underline {
-	text-decoration: underline;
 }
