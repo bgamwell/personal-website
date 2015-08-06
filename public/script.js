@@ -40,4 +40,11 @@ $( document ).ready(function() {
      }
   );
 
+  // mouseover animation for profile picture
+  $("h1").hover(function() {
+    $('#portrait').addClass('glow');
+  }, function() {
+    $('#portrait').removeClass('glow');
+  });
+
 });

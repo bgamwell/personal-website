@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -16,10 +19,10 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <!-- Custom Font -->
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
 
 
     <title>Brennan Gamwell | Full-Stack Web Developer</title>
@@ -31,18 +34,18 @@
     <!-- Landing Page Content -->
     <div class="container">
         <div class="row">
-          <div class="col-md-2 col-sm-12">
-            <br>
-            <img id="portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/0a2/3d7/18144fd.jpg">
-          </div>
-            <div class="col-md-8 col-sm-12">
-              <h1>Brennan Gamwell</h1>
-              <h2>Full-Stack Web Developer in San Francisco</h2>
+            <div class="col-md-8 col-md-offset-2 col-sm-12">
+              <h1 class="text-center">Brennan Gamwell</h1>
               <hr>
+              <h2 class="text-center">Full-Stack Web Developer in San Francisco</h2>
+              <br />
+              <br />
               <p class="text-muted" id="para-1">I'm an entrepreneurial full-stack web developer specializing in Javascript and Rails.</p>
               <p class="text-muted" id="para-2">I get excited about information accessibility, user-centric design, APIs, relational databases and data science. Thanks to a strong quantitative marketing background, I offer solid written and verbal communication skills - meaning I can update your technical documentation in addition to producing modular, scalable code for products that inspire users.</p>
-              <p class="text-muted" id="para-3">Oh, I'm also a huge geek, have multiple pictures with Felicia Day, and have seen every episode of TNG--plus the movies--more than five times. Let's chat about all of the above!</p>
+              <p class="text-muted" id="para-3">Oh, I'm also a huge geek, have multiple pictures with Felicia Day, and have seen every episode of TNG - plus the movies - more than five times. Let's chat about all of the above!</p>
               <p class="text-muted" id="para-4">For questions about Web and software design, please <span id="email-me">email me</span>! You can also <span id="github">explore my code on GitHub</span>, <span id="twitter">pick my brain on Twitter</span> and <span id="linkedin">review my previous experience on LinkedIn.</span></p>
+              <br>
+              <h2><a href="./assets/CV_BGamwell.pdf" target="_blank">Technical Resume</a></h2>
               <br>
               <a href="https://www.github.com/bgamwell" target="_blank" class="btn btn-social-icon btn-github" id="github-icon">
                 <i class="fa fa-github"></i>
@@ -76,16 +79,16 @@
   <!-- Custom JS -->
   <script src="script.js"></script>
 
-  <script type="text/javascript">
+  <!-- // <script type="text/javascript"> -->
 
-  // code to enable random background images when enabled
+  <!-- // code to enable random background images when enabled
     $(document).ready(function() {
         var images = ['02.jpg'];
 
         $('.full').css({'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')'});
-    });
+    }); -->
 
-  </script>
+  <!-- </script> -->
 
   </body>
 
